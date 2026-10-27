@@ -1,0 +1,5 @@
+model,cv_f1_mean,cv_f1_std,cv_auc_mean,cv_auc_std,val_f1,val_auc
+baseline_prior,0.0,0.0,0.5,0.0,0.0,0.5
+logreg,0.6571,0.0071,0.9046,0.0009,0.6624,0.911
+logreg_balanced,0.6783,0.0054,0.9046,0.001,0.6879,0.9108
+hist_gb,0.7073,0.005,0.9261,0.0017,0.7168,0.9336
