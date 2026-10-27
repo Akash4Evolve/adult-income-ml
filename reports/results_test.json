@@ -1,0 +1,14 @@
+{
+  "model": "hist_gb",
+  "trained_on": "train+val",
+  "test_f1": 0.7082,
+  "test_auc": 0.9238,
+  "test_precision": 0.7751,
+  "test_recall": 0.652,
+  "confusion_matrix": {
+    "tn": 6980,
+    "fp": 442,
+    "fn": 813,
+    "tp": 1523
+  }
+}
