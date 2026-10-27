@@ -1,0 +1,35 @@
+Shape: (48842, 15)
+Duplicate rows: 52
+
+Missing values per column:
+age                  0
+workclass         2799
+fnlwgt               0
+education            0
+education-num        0
+marital-status       0
+occupation        2809
+relationship         0
+race                 0
+sex                  0
+capital-gain         0
+capital-loss         0
+hours-per-week       0
+native-country     857
+class                0
+
+Class balance (class):
+class
+<=50K    0.761
+>50K     0.239
+
+Categorical columns (unique values):
+- workclass: 8 unique -> ['Federal-gov', 'Local-gov', 'Never-worked', 'Private', 'Self-emp-inc', 'Self-emp-not-inc', 'State-gov', 'Without-pay']
+- education: 16 unique -> ['10th', '11th', '12th', '1st-4th', '5th-6th', '7th-8th', '9th', 'Assoc-acdm', 'Assoc-voc', 'Bachelors', 'Doctorate', 'HS-grad', 'Masters', 'Preschool', 'Prof-school', 'Some-college']
+- marital-status: 7 unique -> ['Divorced', 'Married-AF-spouse', 'Married-civ-spouse', 'Married-spouse-absent', 'Never-married', 'Separated', 'Widowed']
+- occupation: 14 unique -> ['Adm-clerical', 'Armed-Forces', 'Craft-repair', 'Exec-managerial', 'Farming-fishing', 'Handlers-cleaners', 'Machine-op-inspct', 'Other-service', 'Priv-house-serv', 'Prof-specialty', 'Protective-serv', 'Sales', 'Tech-support', 'Transport-moving']
+- relationship: 6 unique -> ['Husband', 'Not-in-family', 'Other-relative', 'Own-child', 'Unmarried', 'Wife']
+- race: 5 unique -> ['Amer-Indian-Eskimo', 'Asian-Pac-Islander', 'Black', 'Other', 'White']
+- sex: 2 unique -> ['Female', 'Male']
+- native-country: 41 unique -> ['Cambodia', 'Canada', 'China', 'Columbia', 'Cuba', 'Dominican-Republic', 'Ecuador', 'El-Salvador', 'England', 'France', 'Germany', 'Greece', 'Guatemala', 'Haiti', 'Holand-Netherlands', 'Honduras', 'Hong', 'Hungary', 'India', 'Iran']
+- class: 2 unique -> ['<=50K', '>50K']
